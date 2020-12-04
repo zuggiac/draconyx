@@ -34,9 +34,9 @@ namespace Draconyx
                 // Resolution:				Added " AND System.Devices.Aep.IsPresent:=true" to the watcher to exclude
                 //							these kind of devices form the list/watcher.
 
-                    @"System.Devices.Aep.ProtocolId:=""{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}""
-                    //AND System.Devices.Aep.IsPaired:=true AND System.Devices.Aep.IsPresent:=true",
-                    AND System.Devices.Aep.IsPaired:=System.StructuredQueryType.Boolean#True AND System.Devices.Aep.IsPresent:=System.StructuredQueryType.Boolean#True",
+                    @"System.Devices.Aep.ProtocolId:=""{e0cbf06c-cd8b-4647-bb8a-263b43f0f974}",
+                    //"AND System.Devices.Aep.IsPaired:=true AND System.Devices.Aep.IsPresent:=true",
+                    "AND System.Devices.Aep.IsPaired:=System.StructuredQueryType.Boolean#True AND System.Devices.Aep.IsPresent:=System.StructuredQueryType.Boolean#True",
                     
                     
                 new string[] {
